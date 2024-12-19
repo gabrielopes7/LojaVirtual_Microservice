@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LXCIqB+UhZoZgU/9yTQSg+QRqtLWnd+wYwaHc1XVeeQ=",
+  "Source": "LojaVirtual.ProdutoAPI",
+  "BasePath": "_content/LojaVirtual.ProdutoAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
