@@ -1,5 +1,6 @@
 ﻿using LojaVirtual.ProdutoAPI.Context;
 using LojaVirtual.ProdutoAPI.Models;
+using LojaVirtual.ProdutoAPI.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace LojaVirtual.ProdutoAPI.Repositories;

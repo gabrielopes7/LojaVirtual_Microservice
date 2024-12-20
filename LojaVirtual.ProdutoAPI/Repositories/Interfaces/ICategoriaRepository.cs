@@ -1,6 +1,6 @@
 ﻿using LojaVirtual.ProdutoAPI.Models;
 
-namespace LojaVirtual.ProdutoAPI.Repositories;
+namespace LojaVirtual.ProdutoAPI.Repositories.Interfaces;
 
 public interface ICategoriaRepository
 {

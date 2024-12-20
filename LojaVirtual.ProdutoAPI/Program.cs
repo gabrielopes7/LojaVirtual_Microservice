@@ -1,4 +1,8 @@
 using LojaVirtual.ProdutoAPI.Context;
+using LojaVirtual.ProdutoAPI.Repositories;
+using LojaVirtual.ProdutoAPI.Repositories.Interfaces;
+using LojaVirtual.ProdutoAPI.Services;
+using LojaVirtual.ProdutoAPI.Services.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +20,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 );
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+builder.Services.AddScoped<ICategoriaRepository, CategoriaRepository>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<ICategoriaService, CategoriaService>();
+builder.Services.AddScoped<IProdutoService, ProdutoService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

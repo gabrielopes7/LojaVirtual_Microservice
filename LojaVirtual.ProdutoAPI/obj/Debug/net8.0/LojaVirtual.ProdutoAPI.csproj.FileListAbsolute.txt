@@ -133,3 +133,4 @@ D:\Projetos\LojaVirtual_Microservice\LojaVirtual.ProdutoAPI\obj\Debug\net8.0\ref
 D:\Projetos\LojaVirtual_Microservice\LojaVirtual.ProdutoAPI\obj\Debug\net8.0\LojaVirtual.ProdutoAPI.pdb
 D:\Projetos\LojaVirtual_Microservice\LojaVirtual.ProdutoAPI\obj\Debug\net8.0\LojaVirtual.ProdutoAPI.genruntimeconfig.cache
 D:\Projetos\LojaVirtual_Microservice\LojaVirtual.ProdutoAPI\obj\Debug\net8.0\ref\LojaVirtual.ProdutoAPI.dll
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.ProdutoAPI\bin\Debug\net8.0\AutoMapper.dll
