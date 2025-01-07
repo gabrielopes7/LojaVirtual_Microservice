@@ -7,9 +7,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddHttpClient("ProdutoApi", c =>
 {
-    c.BaseAddress = new Uri(builder.Configuration["ServiceUri: ProdutoApi"]);
+    c.BaseAddress = new Uri(builder.Configuration["ServiceUri:ProdutoApi"]);
 });
 builder.Services.AddScoped<IProdutoService, ProdutoService>();
+builder.Services.AddScoped<ICategoriaService, CategoriaService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

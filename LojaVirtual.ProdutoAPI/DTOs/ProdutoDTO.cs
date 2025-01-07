@@ -1,5 +1,6 @@
 ﻿using LojaVirtual.ProdutoAPI.Models;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace LojaVirtual.ProdutoAPI.DTOs;
 
@@ -22,7 +23,8 @@ public class ProdutoDTO
     [Range(1,9999)]
     public long Estoque { get; set; }
     public string? ImagemURL { get; set; }
-
+    public string? NomeCategoria { get; set; }
+    [JsonIgnore]
     public Categoria? Categoria { get; set; }
     public int CategoriaId { get; set; }
 }

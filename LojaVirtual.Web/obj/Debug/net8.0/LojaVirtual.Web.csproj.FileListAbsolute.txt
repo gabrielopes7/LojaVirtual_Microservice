@@ -29,3 +29,5 @@ D:\Projetos\LojaVirtual_Microservice\LojaVirtual.Web\obj\Debug\net8.0\refint\Loj
 D:\Projetos\LojaVirtual_Microservice\LojaVirtual.Web\obj\Debug\net8.0\LojaVirtual.Web.pdb
 D:\Projetos\LojaVirtual_Microservice\LojaVirtual.Web\obj\Debug\net8.0\LojaVirtual.Web.genruntimeconfig.cache
 D:\Projetos\LojaVirtual_Microservice\LojaVirtual.Web\obj\Debug\net8.0\ref\LojaVirtual.Web.dll
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.Web\bin\Debug\net8.0\package-lock.json
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.Web\bin\Debug\net8.0\package.json
