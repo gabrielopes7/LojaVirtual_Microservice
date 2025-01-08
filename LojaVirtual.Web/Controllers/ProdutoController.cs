@@ -52,5 +52,56 @@ namespace LojaVirtual.Web.Controllers
 
             return View(produtoViewModel);
         }
+
+        [HttpGet]
+
+        public async Task<ActionResult> UpdateProduto(int id)
+        {
+            ViewBag.CategoriaId = new SelectList(await
+                _categoriaService.GetTodasCategorias(), "Id", "Nome");
+            
+            var result = await _produtoService.ProcurarProdutoById(id);
+
+            if (result is null)
+                return View("Error");
+
+            return View(result);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> UpdateProduto(ProdutoViewModel produtoViewModel)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = await _produtoService.UpdateProduto(produtoViewModel);
+
+                if (result is not null)
+                    return RedirectToAction(nameof(Index));
+            }
+
+            return View(produtoViewModel);
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<ProdutoViewModel>> DeleteProduto(int id)
+        {
+            var result = await _produtoService.ProcurarProdutoById(id);
+
+            if(result is null)
+                return View("Error");
+
+            return View(result);
+        }
+
+        [HttpPost, ActionName("DeleteProduto")]
+        public async Task<ActionResult> DeleteProdutoConfirmado(int id)
+        {
+            var result = await _produtoService.DeleteProdutoById(id);
+
+            if(!result)
+                return View("Error");
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

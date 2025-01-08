@@ -92,7 +92,7 @@ public class ProdutoService : IProdutoService
 
         ProdutoViewModel produtoUpdated = new ProdutoViewModel();
 
-        using (var response = await client.PutAsJsonAsync(apiEndpoint, produtoUpdated))
+        using (var response = await client.PutAsJsonAsync(apiEndpoint, produtoViewModel))
         {
             if (response.IsSuccessStatusCode)
             {

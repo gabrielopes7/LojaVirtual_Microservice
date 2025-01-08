@@ -1,0 +1,66 @@
+﻿@model LojaVirtual.Web.Models.ProdutoViewModel
+
+<h3>Update Produto</h3>
+
+<hr />
+
+<form asp-action="UpdateProduto">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="Nome" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <input asp-for="Nome" class="form-control" />
+            <span asp-validation-for="Nome" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Descricao" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <textarea asp-for="Descricao" class="form-control"></textarea>
+            <span asp-validation-for="Descricao" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="form-group">
+            <label asp-for="ImagemURL" class="col-md-2 control-label"></label>
+            <div class="col-md-10">
+                <input asp-for="ImagemURL" class="form-control" />
+                <span asp-validation-for="ImagemURL" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="form-group col-md-6">
+            <img src="~imagems/@Model.ImagemURL" />
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="form-group col-sm-4">
+            <label asp-for="Preco" class="control-label"></label>
+            <input asp-for="Preco" asp-format="{0:N2}" class="form-control" />
+            <span asp-validation-for="Preco" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-sm-4">
+            <label asp-for="Estoque" class="control-label"></label>
+            <input asp-for="Estoque" class="form-control" />
+            <span asp-validation-for="Estoque" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoriaId" class="col-md-2 control-label"></label>
+        <div class="col-md-10">
+            <select asp-for="CategoriaId" class="form-control" asp-items="@ViewBag.CategoriaId"> </select>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Salvar" class="btn btn-success" />
+            <a asp-action="Index" class="btn btn-info">Voltar para lista</a>
+        </div>
+    </div>
+</form>
