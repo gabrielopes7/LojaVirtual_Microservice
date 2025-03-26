@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "LXCIqB+UhZoZgU/9yTQSg+QRqtLWnd+wYwaHc1XVeeQ=",
+  "Hash": "NPW3xP5eRNltb1ywAIf5K6fUUKVjmlq/AUmIZwUrujE=",
   "Source": "LojaVirtual.ProdutoAPI",
   "BasePath": "_content/LojaVirtual.ProdutoAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

@@ -1,0 +1,9 @@
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.IdentityServer\obj\Debug\net8.0\LojaVirtual.IdentityServer.csproj.AssemblyReference.cache
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.IdentityServer\obj\Debug\net8.0\LojaVirtual.IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.IdentityServer\obj\Debug\net8.0\LojaVirtual.IdentityServer.AssemblyInfoInputs.cache
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.IdentityServer\obj\Debug\net8.0\LojaVirtual.IdentityServer.AssemblyInfo.cs
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.IdentityServer\obj\Debug\net8.0\LojaVirtual.IdentityServer.csproj.CoreCompileInputs.cache
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.IdentityServer\obj\Debug\net8.0\LojaVirtual.IdentityServer.MvcApplicationPartsAssemblyInfo.cache
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.IdentityServer\obj\Debug\net8.0\LojaVirtual.IdentityServer.RazorAssemblyInfo.cache
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.IdentityServer\obj\Debug\net8.0\LojaVirtual.IdentityServer.RazorAssemblyInfo.cs
+D:\Projetos\LojaVirtual_Microservice\LojaVirtual.IdentityServer\obj\Debug\net8.0\LojaVirtual.IdentityServer.sourcelink.json

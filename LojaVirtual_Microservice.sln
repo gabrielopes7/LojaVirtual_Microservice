@@ -10,7 +10,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.Web", "LojaVirtual.Web\LojaVirtual.Web.csproj", "{25F6BCEC-03D6-4E88-9205-0329F7D499E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LojaVirtual.Web", "LojaVirtual.Web\LojaVirtual.Web.csproj", "{25F6BCEC-03D6-4E88-9205-0329F7D499E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{FC7D5B33-C7F3-4EBF-9A1A-882702E9C42E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{857EA328-78DE-4CFA-95EC-48F727A6E5D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.IdentityServer", "LojaVirtual.IdentityServer\LojaVirtual.IdentityServer.csproj", "{79485669-FDA0-4445-9F4D-F58F1D8737F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LojaVirtual.ProdutoAPI.Test", "LojaVirtual.ProdutoAPI.Test\LojaVirtual.ProdutoAPI.Test.csproj", "{BEAFD8CA-99C0-4FB7-959C-F13580DB4A58}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +36,23 @@ Global
 		{25F6BCEC-03D6-4E88-9205-0329F7D499E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25F6BCEC-03D6-4E88-9205-0329F7D499E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25F6BCEC-03D6-4E88-9205-0329F7D499E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79485669-FDA0-4445-9F4D-F58F1D8737F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79485669-FDA0-4445-9F4D-F58F1D8737F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79485669-FDA0-4445-9F4D-F58F1D8737F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79485669-FDA0-4445-9F4D-F58F1D8737F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEAFD8CA-99C0-4FB7-959C-F13580DB4A58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEAFD8CA-99C0-4FB7-959C-F13580DB4A58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEAFD8CA-99C0-4FB7-959C-F13580DB4A58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEAFD8CA-99C0-4FB7-959C-F13580DB4A58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D102B09E-BED3-4CFE-A158-7A7E18D81F97} = {857EA328-78DE-4CFA-95EC-48F727A6E5D0}
+		{25F6BCEC-03D6-4E88-9205-0329F7D499E5} = {FC7D5B33-C7F3-4EBF-9A1A-882702E9C42E}
+		{79485669-FDA0-4445-9F4D-F58F1D8737F0} = {857EA328-78DE-4CFA-95EC-48F727A6E5D0}
+		{BEAFD8CA-99C0-4FB7-959C-F13580DB4A58} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ECE1D182-4E9F-4C8D-B219-4692D10313FD}

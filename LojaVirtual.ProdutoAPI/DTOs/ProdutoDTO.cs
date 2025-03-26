@@ -25,6 +25,6 @@ public class ProdutoDTO
     public string? ImagemURL { get; set; }
     public string? NomeCategoria { get; set; }
     [JsonIgnore]
-    public Categoria? Categoria { get; set; }
+    public CategoriaDTO? Categoria { get; set; }
     public int CategoriaId { get; set; }
 }
