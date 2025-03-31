@@ -1,4 +1,5 @@
 ﻿using AutoFixture;
+using LojaVirtual.ProdutoAPI.Models;
 using Moq;
 using System;
 using System.Collections.Generic;
